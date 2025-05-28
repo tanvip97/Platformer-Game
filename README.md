@@ -1,38 +1,31 @@
-🕹️ Python Platformer Game
-A 2D platformer game built using Python and Pygame, featuring shooting mechanics, enemies (bees and worms), custom animations, and tile-based level design using Tiled Map Editor.
+# 🕹️ Python Platformer Game
 
-🚀 Features
-👨‍💻 Player character with movement and shooting
+A 2D platformer game built using **Python** and **Pygame**, featuring shooting mechanics, enemies (bees and worms), custom animations, and tile-based level design using **Tiled Map Editor**.
 
-🐝 Bee and worm enemies with basic AI
+## 🚀 Features
 
-💥 Bullet collisions with enemies
+- 👨‍💻 Player character with movement and shooting
+- 🐝 Bee and worm enemies with basic AI
+- 💥 Bullet collisions with enemies
+- 🧱 Multi-layered map design using **Tiled**
+- 🎨 Animated sprites for dynamic visuals
+- ⏱️ Custom timers for game logic
+- 📦 Organized sprite and tile assets
 
-🧱 Multi-layered map design using Tiled
+## 🖥️ Gameplay Preview
 
-🎨 Animated sprites for dynamic visuals
+_Add a GIF or screenshot of your game here_
 
-⏱️ Custom timers for game logic
+## 🛠️ Tech Stack
 
-📦 Organized sprite and tile assets
+- **Language**: Python  
+- **Library**: Pygame  
+- **Level Design**: Tiled Map Editor (`.tmx` files)  
+- **Assets**: Custom and/or free game assets
 
-🖥️ Gameplay Preview
-Add a GIF or screenshot of your game here
-You can create a GIF using screen recording software and upload it to the repo.
+## 📁 Folder Structure
 
-🛠️ Tech Stack
-Language: Python
-
-Library: Pygame
-
-Level Design: Tiled Map Editor (.tmx files)
-
-Assets: Custom and/or free game assets
-
-📁 Folder Structure
-css
-Copy
-Edit
+```
 ├── assets/
 │   ├── player/
 │   ├── enemies/
@@ -42,47 +35,50 @@ Edit
 ├── main.py
 ├── settings.py
 └── README.md
-▶️ How to Run
-Make sure you have Python 3.x installed.
+```
 
-Install Pygame:
+## ▶️ How to Run
 
-bash
-Copy
-Edit
+1. Make sure you have **Python 3.x** installed.
+2. Install **Pygame**:
+
+```bash
 pip install pygame
-Run the game:
+```
 
-bash
-Copy
-Edit
+3. Run the game:
+
+```bash
 python main.py
-🧱 Tiled Map Editor
+```
+
+## 🎮 Controls
+
+| Key        | Action           |
+|------------|------------------|
+| Arrow keys | Move left/right  |
+| Spacebar   | Jump             |
+| `Z`        | Shoot bullets    |
+
+## 🧱 Tiled Map Editor
+
 If you want to edit or create new levels:
 
-Download Tiled.
+1. Download [Tiled](https://www.mapeditor.org/).
+2. Open `.tmx` files in the `maps/` directory.
+3. Design your level and save it — the game will load the updated map!
 
-Open .tmx files in the maps/ directory.
+## 🧩 Known Issues / To-Do
 
-Design your level and save it — the game will load the updated map!
+- [ ] Add background music and sound effects  
+- [ ] Add health/lives system  
+- [ ] Add UI for score and lives  
+- [ ] Implement multiple levels  
 
-🎮 Controls
-Key	Action
-Arrow keys	Move left/right
-Spacebar	Jump
-Z	Shoot bullets
+## 🤝 Contributing
 
-🧩 Known Issues / To-Do
- Add background music and sound effects
-
- Add health/lives system
-
- Add UI for score and lives
-
- Implement multiple levels
-
-🤝 Contributing
 Feel free to fork this repo, improve the game, and make a pull request!
 
-📜 License
-This project is open-source and available under the MIT License.
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
